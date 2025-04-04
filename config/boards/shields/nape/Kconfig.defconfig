@@ -1,21 +1,4 @@
 if NAPE
 config ZMK_KEYBOARD_NAME
     default "Nape Trackball"
-
-# デフォルト向きレイヤーの設定
-config NAPE_DEFAULT_LAYER
-    int "電源オン時のデフォルトの向きレイヤー"
-    default 5
-    range 0 7
-    help
-      電源オン時のデフォルトの使用向きを選択。
-      それぞれのレイヤーと回転角度（時計回り）の対応は以下の通り。
-      0: 0° USBポートが下 
-      1: 45°
-      2: 90° USBポートが左
-      3: 135°
-      4: 180° USBポートが上
-      5: 225°
-      6: 270° USBポートが右
-      7: 315°
 endif
