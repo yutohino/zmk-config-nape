@@ -124,7 +124,7 @@
 
         Layer2 {
             bindings = <
-&mod_mkp LEFT_SHIFT MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 0
+&trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&kp F11  &mkp MB4  &mkp MB5  &trans  &trans  &trans
+&mkp MB3  &mkp MB4  &mkp MB5  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
